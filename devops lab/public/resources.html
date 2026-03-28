@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resources - Smart Campus RMS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <img src="/assets/smart-campus.webp" alt="Smart Campus banner" />
+      </div>
+      <h1>Resources</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a id="auth-link" href="/signin.html">Sign in</a>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="card">
+        <h3>Campus resources catalog</h3>
+        <p style="color:var(--muted)">Browse rooms, labs, equipment and campus services. Several sample resources are pre-seeded for the demo. Use the search box to filter by title, type or location.</p>
+      </section>
+      <section class="controls">
+        <input id="search" placeholder="Search resources..." />
+        <button id="refresh" class="btn">Refresh</button>
+        <button id="add-btn" class="btn">Add Resource</button>
+      </section>
+
+      <section id="resource-list" class="grid"></section>
+
+      <section id="editor" class="modal hidden">
+        <div class="modal-content">
+          <h3 id="editor-title">Add Resource</h3>
+          <form id="resource-form">
+            <label>Title</label>
+            <input id="r-title" required />
+            <label>Type</label>
+            <input id="r-type" />
+            <label>Location</label>
+            <input id="r-location" />
+            <label>Status</label>
+            <select id="r-status"><option>available</option><option>unavailable</option><option>reserved</option></select>
+            <label>Description</label>
+            <textarea id="r-desc"></textarea>
+            <div class="modal-actions">
+              <button class="btn" type="submit">Save</button>
+              <button id="cancel" class="btn outline" type="button">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="/js/auth.js"></script>
+    <script src="/js/resources.js"></script>
+  </body>
+</html>

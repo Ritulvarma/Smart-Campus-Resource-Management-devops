@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": "1770612531207",
+      "name": "ritul varma",
+      "email": "ritul.verma.btech2023@sitnagpur.siu.edu.in",
+      "password": "$2a$10$esf8fgFwGc4gO.xhNqaEkOBdZ51xZ9wEa37B/FfkYi1YqoVPT.CyC"
+    },
+    {
+      "id": "1770707021258",
+      "name": "TANISHKA TALMALE",
+      "email": "talmaletanishka@gmail.com",
+      "password": "$2a$10$qgtXz1ZFxgUn1S01RffOTuGQpQp0a/t1tI9zK4hds7VUbSdoMtwJ6"
+    },
+    {
+      "id": "1773048801504",
+      "name": "Test User",
+      "email": "testuser_qfg5m0d8@example.com",
+      "password": "$2a$10$aFPfjI2NYR9JWsxE8dC2vezTfu6G/TInBkPIB0j9K4xcURIE0LcrK"
+    },
+    {
+      "id": "1773048819051",
+      "name": "Test User",
+      "email": "testuser_8h5naqh2@example.com",
+      "password": "$2a$10$fmMQvfnn94W.20DRI2jd4uaWkUjw8wglxDnSzYYkqRNFMGkNQ073."
+    }
+  ],
+  "resources": [
+    {
+      "id": "res1",
+      "title": "Main Lecture Hall",
+      "type": "Room",
+      "location": "Building A, Floor 1",
+      "status": "available",
+      "description": "Capacity 200, Projector available",
+      "createdBy": "system"
+    },
+    {
+      "id": "lab202",
+      "title": "Computer Lab 202",
+      "type": "Lab",
+      "location": "Building B, Floor 2",
+      "status": "available",
+      "description": "40 workstations, high-speed internet, reserved for lab classes",
+      "createdBy": "system"
+    },
+    {
+      "id": "printer3d",
+      "title": "3D Printer - MakerHub",
+      "type": "Equipment",
+      "location": "Innovation Center",
+      "status": "unavailable",
+      "description": "Raise a request to use; currently under maintenance",
+      "createdBy": "system"
+    },
+    {
+      "id": "proj-A1",
+      "title": "Projector A1",
+      "type": "Equipment",
+      "location": "Building A, Lecture Hall 12",
+      "status": "available",
+      "description": "Full HD projector with HDMI and wireless mirroring",
+      "createdBy": "system"
+    },
+    {
+      "id": "ev1",
+      "title": "EV Charging Station 1",
+      "type": "Service",
+      "location": "Parking Lot C",
+      "status": "available",
+      "description": "Fast charger (Type2) available for staff vehicles",
+      "createdBy": "system"
+    },
+    {
+      "id": "study01",
+      "title": "Library Study Room 1",
+      "type": "Room",
+      "location": "Central Library, 1st Floor",
+      "status": "reserved",
+      "description": "Group study room (capacity 8) — reserved for finals week",
+      "createdBy": "system"
+    },
+    {
+      "id": "sports-hall",
+      "title": "Sports Hall",
+      "type": "Facility",
+      "location": "Sports Complex",
+      "status": "available",
+      "description": "Indoor court for basketball, badminton. Booking required for tournaments.",
+      "createdBy": "system"
+    }
+  ]
+}

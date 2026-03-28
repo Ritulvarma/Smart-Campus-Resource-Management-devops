@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smart Campus RMS</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">
+        <img src="/assets/smart-campus.webp" alt="Smart Campus banner" />
+      </div>
+      <h1>Smart Campus Resource Management</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/resources.html">Resources</a>
+        <a id="auth-link" href="/signin.html">Sign in</a>
+      </nav>
+    </header>
+
+    <!-- Page banner placed between header and hero -->
+    <div class="page-banner-wrap">
+      <img class="page-banner" src="/assets/smart-campus.webp" alt="Smart Campus banner" />
+    </div>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-left">
+          <h2>Welcome to Smart Campus</h2>
+          <p>Manage classrooms, labs, equipment and services efficiently. Smart Campus RMS centralizes bookings, tracks availability, and reduces double-bookings so faculty, staff and students can focus on what matters.</p>
+          <div class="cta">
+            <a class="btn" href="/resources.html">Explore Resources</a>
+            <a class="btn outline" href="/signup.html">Create Account</a>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=60" alt="paper schedules" />
+          <h3>Previous approaches</h3>
+          <p>Traditionally, resource management relied on paper schedules, email threads and siloed spreadsheets. This caused lost requests, manual conflict resolution and no single source of truth.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=60" alt="calendar" />
+          <h3>What we solve</h3>
+          <p>Smart Campus automates bookings, prevents overlaps with conflict checks, stores a searchable history of usage, and offers one place to request rooms, equipment and services.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=800&q=60" alt="analytics" />
+          <h3>Benefits</h3>
+          <p>Faster approvals, better utilization of space and equipment, transparent audit trails, and analytics that help campus planners make informed decisions.</p>
+        </div>
+      </section>
+
+      <!-- gallery removed as requested -->
+
+      <section class="card" style="margin-top:18px">
+        <h3>How it works (quick)</h3>
+        <ol style="color:var(--muted)">
+          <li>Sign up and sign in to access advanced actions.</li>
+          <li>Browse resources and check live status.</li>
+          <li>Request or reserve resources for specific time slots (demo limited).</li>
+          <li>Admins can approve or manage requests centrally.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Smart Campus RMS</p>
+    </footer>
+
+    <script src="/js/auth.js"></script>
+  </body>
+</html>

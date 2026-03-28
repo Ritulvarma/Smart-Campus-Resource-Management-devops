@@ -1,0 +1,60 @@
+:root{--bg:#0b0710;--panel:#12081a;--muted:#bdb4d6;--accent:#8b5cf6;--accent-2:#5b21b6;--card:#171126}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Arial,sans-serif}
+body{margin:0;background:linear-gradient(180deg,var(--bg),#0d0820);color:var(--muted)}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:18px 32px;background:transparent}
+.site-header h1{color:var(--accent);letter-spacing:0.6px}
+.site-header a{margin-left:14px;color:var(--muted);text-decoration:none}
+.site-header .logo{display:none !important}
+.site-header{display:flex;justify-content:center;align-items:center;padding:18px 32px;background:transparent;position:relative}
+.site-header h1{margin:0}
+.site-header nav{position:absolute;right:32px}
+
+.page-banner-wrap{display:flex;justify-content:center;align-items:center;margin:16px 0;padding:0}
+.page-banner{display:block;width:90vw;max-width:1100px;height:140px;object-fit:cover;border-radius:10px;box-shadow:0 10px 30px rgba(11,7,18,0.5);}
+
+@media (max-width:1000px){
+	.page-banner{width:95vw;height:120px}
+}
+
+@media (max-width:600px){
+	.page-banner{width:96vw;height:100px}
+	.site-header{padding:12px}
+	.site-header nav{right:12px}
+}
+.container{max-width:1100px;margin:36px auto;padding:0 18px}
+.hero{background:linear-gradient(180deg,var(--panel),rgba(20,8,35,0.9));padding:28px;border-radius:12px;display:flex;flex-direction:column;gap:12px;box-shadow:0 8px 30px rgba(88,66,139,0.18)}
+.hero h2{color:#fff;font-size:28px}
+.hero p{color:var(--muted);max-width:760px}
+.hero{display:flex;gap:18px;align-items:center}
+.hero-left{flex:1}
+.hero-right{flex:1;display:flex;align-items:center;justify-content:center}
+.hero-right img{width:100%;max-width:420px;border-radius:10px;box-shadow:0 12px 40px rgba(11,7,18,0.6)}
+.cta .btn{margin-right:8px}
+.btn{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#fff;border:none;padding:10px 14px;border-radius:10px;cursor:pointer;box-shadow:0 6px 18px rgba(91,33,182,0.14)}
+.btn.outline{background:transparent;border:1px solid rgba(139,92,246,0.18);color:var(--accent)}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+.card{background:linear-gradient(180deg,var(--card),#1a1126);padding:18px;border-radius:10px;color:var(--muted);box-shadow:0 6px 20px rgba(0,0,0,0.4);display:flex;flex-direction:column;gap:10px}
+.card img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+.auth-container{max-width:520px;margin:60px auto;background:linear-gradient(180deg,var(--panel),#12081a);padding:26px;border-radius:12px;color:var(--muted)}
+label{display:block;margin-top:10px;color:var(--muted)}
+input,textarea,select{width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:18px}
+.resource{background:linear-gradient(180deg,#10061a,#15081f);padding:14px;border-radius:10px;color:var(--muted);box-shadow:0 6px 18px rgba(10,6,18,0.6)}
+.resource h4{margin:0 0 6px;color:#fff}
+.controls{display:flex;gap:8px;align-items:center}
+.controls input{flex:1}
+.status-badge{display:inline-block;padding:6px 10px;border-radius:999px;font-size:12px;color:#fff}
+.status-available{background:linear-gradient(90deg,#34d399,#10b981)}
+.status-unavailable{background:linear-gradient(90deg,#f97316,#ef4444)}
+.status-reserved{background:linear-gradient(90deg,#60a5fa,#3b82f6)}
+.modal{position:fixed;inset:0;background:rgba(2,2,6,0.6);display:flex;align-items:center;justify-content:center}
+.modal.hidden{display:none}
+.modal-content{background:linear-gradient(180deg,#0f0916,#14081d);padding:18px;border-radius:12px;width:520px;color:var(--muted)}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:12px}
+.site-footer{padding:18px;text-align:center;color:var(--muted);margin-top:28px}
+
+.gallery img{width:100%;height:160px;object-fit:cover;border-radius:10px;box-shadow:0 8px 30px rgba(11,7,18,0.55)}
+
+.signup-banner-wrap{display:flex;justify-content:center;margin:12px 0}
+.signup-banner{max-width:100%;height:auto;border-radius:8px;box-shadow:0 10px 30px rgba(11,7,18,0.6);border:1px solid rgba(255,255,255,0.03)}
+
